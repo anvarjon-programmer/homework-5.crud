@@ -58,7 +58,8 @@ const Create = () => {
           />
         </div>
         <div className="checks-gender">
-        <div className="mb-3 mb-3 chech-gender">
+          <div className="gender-wraper">
+          <div className="mb-3 mb-3 chech-gender">
           <input
             className="form-check-input mx-1 "
             name="gender"
@@ -79,6 +80,7 @@ const Create = () => {
           />
           <label className="form-check-label">Female</label>
         </div>
+          </div>
         <button type="submit" className="btn btn-primary">
           Submit
         </button>

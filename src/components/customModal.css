@@ -42,3 +42,8 @@ label{
   display: flex;
   align-items: center;
 }
+.gender-wraper{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
